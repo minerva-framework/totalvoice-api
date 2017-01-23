@@ -1,0 +1,25 @@
+{
+  "name": "minerva-framework/totalvoice-api",
+  "description": "API para comunicação com o servidor do totalvoice",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lucas A. de Araújo",
+      "email": "lucas@minervasistemas.com.br"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "Minerva\\": "src"
+    }
+  },
+  "autoload-dev":{
+    "psr-4":{
+      "TotalVoiceTest\\": "test/TotalVoiceTest"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "5.7.6"
+  }
+}
