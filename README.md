@@ -7,7 +7,7 @@ Exemplo de utilização
 ```php
 $sms = new SMS();
 $sms->setNumber(44999999999);
-$sms->setText("Sieg Heil Viktoria!");
+$sms->setText("Olá, Bom dia!");
 
 TotalVoice::$token = '...';
 $response = TotalVoice::sendSms($sms);
