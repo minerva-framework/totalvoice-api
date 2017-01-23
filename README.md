@@ -11,4 +11,5 @@ $sms->setText("Olá, Bom dia!");
 
 TotalVoice::$token = '...';
 $response = TotalVoice::sendSms($sms);
+echo $response->getContent();
 ```
